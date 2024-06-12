@@ -1,5 +1,6 @@
 
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CollisionHandler : MonoBehaviour
 {
@@ -17,8 +18,13 @@ public class CollisionHandler : MonoBehaviour
             Debug.Log("Friendly");
             break;
         default:
-            Debug.Log("Unfriendly");
+            ReloadLevel();
             break;
         }
+    }
+
+    void ReloadLevel()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }
