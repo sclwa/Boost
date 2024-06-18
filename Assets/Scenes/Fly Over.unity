@@ -308,6 +308,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1911294339
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1911294340}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1911294340
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1911294339}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.059073195, y: 0.028508542, z: -0.0016877275, w: 0.99784505}
+  m_LocalPosition: {x: 26.062723, y: 9.604271, z: -4.99382}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 6.776, y: 3.273, z: 0}
 --- !u!1001 &1626328315826169307
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -360,8 +391,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rocket
       objectReference: {fileID: 0}
+    - target: {fileID: 8468881506367060792, guid: 86c13564739f547e8a8f201bfc17a405, type: 3}
+      propertyPath: m_Name
+      value: PrefabDummy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 8468881506367060792, guid: 86c13564739f547e8a8f201bfc17a405, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 86c13564739f547e8a8f201bfc17a405, type: 3}
@@ -656,6 +692,7 @@ SceneRoots:
   m_Roots:
   - {fileID: 963194228}
   - {fileID: 705507995}
+  - {fileID: 1911294340}
   - {fileID: 7327761760323657768}
   - {fileID: 2022484570898088610}
   - {fileID: 6079099131005373437}
