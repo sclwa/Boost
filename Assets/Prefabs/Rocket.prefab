@@ -430,6 +430,7 @@ GameObject:
   - component: {fileID: 3555490211786093289}
   - component: {fileID: 6014389239889941500}
   - component: {fileID: 2680159243217673418}
+  - component: {fileID: 3830732170467387163}
   m_Layer: 0
   m_Name: Rocket
   m_TagString: MainCamera
@@ -649,6 +650,18 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.1861973, y: 1.2259232, z: 1}
   m_Center: {x: -0.018446922, y: -0.04953319, z: 0}
+--- !u!114 &3830732170467387163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7568807375887806050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73192e239b2774e38a420bb0dfecf140, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8468881506367060792
 GameObject:
   m_ObjectHideFlags: 0
