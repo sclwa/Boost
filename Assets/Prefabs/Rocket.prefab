@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 364168141552036701}
   - component: {fileID: 677641290051373116}
   m_Layer: 0
-  m_Name: Cube (3)
+  m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -95,7 +95,7 @@ GameObject:
   - component: {fileID: 4788534458165543009}
   - component: {fileID: 6523843788786431715}
   m_Layer: 0
-  m_Name: Cube (1)
+  m_Name: Wing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -178,7 +178,7 @@ GameObject:
   - component: {fileID: 7781993897510692748}
   - component: {fileID: 5272874091920687377}
   m_Layer: 0
-  m_Name: Cube (2)
+  m_Name: Wing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -261,7 +261,7 @@ GameObject:
   - component: {fileID: 6122469718878757891}
   - component: {fileID: 814576691149408427}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -344,7 +344,7 @@ GameObject:
   - component: {fileID: 4202586113942128239}
   - component: {fileID: 253970025368849644}
   m_Layer: 0
-  m_Name: Cylinder
+  m_Name: Thrust
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
